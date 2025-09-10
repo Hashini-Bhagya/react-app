@@ -1,4 +1,4 @@
-function Input({ text, setText, onAddTodo }) {
+ function Input({ text, setText, onAddTodo }) {
   return (
     <div>
       <input
@@ -17,4 +17,4 @@ function Input({ text, setText, onAddTodo }) {
   );
 }
 
-export default Input;
+export default Input; 

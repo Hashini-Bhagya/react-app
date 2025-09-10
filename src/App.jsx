@@ -4,7 +4,8 @@ import List from './List.jsx';
 import './App.css';
 
 function App() {
-  const [todoText, setTodoText] = useState('');
+  const [todoText, setTodoText] = useState('');  
+  // Use useState → when only one component needs the data.
   const [todos, setTodos] = useState([]);
 
   const handleRemoveTodo = (itemToRemove) => {
@@ -27,4 +28,5 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
+

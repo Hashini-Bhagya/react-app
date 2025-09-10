@@ -1,4 +1,4 @@
-function List(props) {
+ function List(props) {
   return (
     <div>
      {props.items.map((item) => {
@@ -25,4 +25,4 @@ function List(props) {
   );
 }
 
-export default List;
+export default List; 
